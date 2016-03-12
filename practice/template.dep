@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1703006825</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\Libraries\startup\DeviceSupport\IAR-ARM\startup_MK60D10.s</file>
+      <file>$PROJ_DIR$\..\..\Libraries\drivers\K\src\uart.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\interrupt.c</file>
+      <file>$PROJ_DIR$\interrupt.h</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\..\..\Libraries\startup\CoreSupport\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\..\..\Libraries\startup\DeviceSupport\MK60F15.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\template.out</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\..\..\Libraries\startup\DeviceSupport\system_MK60F15.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\interrupt.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\..\..\Libraries\startup\CoreSupport\core_cm4.h</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_MK60F15.o</file>
+      <file>$PROJ_DIR$\..\..\Libraries\startup\CoreSupport\core_cm4_simd.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\interrupt.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\gpio.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\common.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$PROJ_DIR$\core_cm4.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\config\linker\Freescale\MK60xX512_15.icf</file>
+      <file>$PROJ_DIR$\..\..\Libraries\startup\CoreSupport\core_cmInstr.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yfuns.h</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tlv.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_MK60F15.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\systick.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\template.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_MK60D10.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\..\..\Libraries\drivers\K\src\common.c</file>
+      <file>$PROJ_DIR$\..\..\Libraries\drivers\K\src\systick.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\..\Libraries\startup\DeviceSupport\system_MK60F15.c</file>
+      <file>$PROJ_DIR$\..\..\Libraries\drivers\K\src\gpio.c</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\..\Libraries\startup\DeviceSupport\IAR-ARM\startup_MK60D10.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 44</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Libraries\drivers\K\src\uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33 35 45 42 32 37 49 11 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\interrupt.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 21</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4 2 45 42 32 37 49 11 9 25 28 35 16 36 7 17 31 12 29 6 20 13</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 4 2 45 42 32 37 49 11 9 25 28 35 16 36 7 26 31 12 29 6 20 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 8</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\template.out</name>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 30 21 41 44 19 18 5 34 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4 2 45 42 32 37 49 11 9 25 28 35 16 36 7 17 31 12 29 6 20 13</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 4 2 45 42 32 37 49 11 9 25 28 35 16 36 7 26 31 12 29 6 20 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Libraries\drivers\K\src\common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 45 42 32 37 49 11 9 35 15</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Libraries\drivers\K\src\systick.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Libraries\startup\DeviceSupport\system_MK60F15.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 19</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2 45 42 32 37 49 11 9 7 17 31 12 29 6 20 13</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 2 45 42 32 37 49 11 9 7 17 31 12 29 6 20 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Libraries\drivers\K\src\gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\Libraries\drivers\K\src\uart.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\Libraries\drivers\K\src\common.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\Libraries\drivers\K\src\systick.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\..\Libraries\drivers\K\src\gpio.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
